@@ -2,7 +2,7 @@ Project Overview
 
 This project aims to design, build, and deploy a cloud-native web application using Kubernetes and Helm for container orchestration and packaging, while implementing a full CI/CD pipeline for automated testing, building, and deployment on AWS. The project demonstrates end-to-end DevOps practices for scalable, resilient, and automated application delivery.
 
-Objectives ##
+Objectives ##2
 
 Deploy a containerized web application on AWS EKS (Elastic Kubernetes Service).
 
