@@ -1,8 +1,8 @@
-Project Overview
+# Project Overview
 
 This project aims to design, build, and deploy a cloud-native web application using Kubernetes and Helm for container orchestration and packaging, while implementing a full CI/CD pipeline for automated testing, building, and deployment on AWS. The project demonstrates end-to-end DevOps practices for scalable, resilient, and automated application delivery.
 
-Objectives ##2
+## Objectives
 
 Deploy a containerized web application on AWS EKS (Elastic Kubernetes Service).
 
@@ -18,7 +18,7 @@ Helm-based deployments to EKS.
 
 Ensure secure, scalable, and observable infrastructure with best DevOps practices.
 
-Architecture
+## Architecture
 
 Application Layer
 
@@ -40,7 +40,7 @@ Ingress (NGINX or AWS ALB ingress controller).
 
 Monitoring (Prometheus + Grafana optional).
 
-CI/CD Layer
+## CI/CD Layer
 
 GitHub Actions pipeline to:
 
@@ -50,7 +50,7 @@ Build Docker images and push to ECR.
 
 Deploy via Helm to EKS.
 
-Workflow
+## Workflow
 
 Developer pushes code → GitHub triggers CI.
 
@@ -60,7 +60,7 @@ CD step applies Helm chart to deploy the new version to EKS.
 
 Application is exposed via an Ingress → accessible on AWS public endpoint.
 
-Tools & Technologies
+## Tools & Technologies
 
 AWS: EKS, ECR, RDS, IAM.
 
@@ -84,7 +84,7 @@ Add AWS S3 integration for file storage.
 
 Add Secrets management with AWS Secrets Manager or Sealed Secrets.
 
-Expected Outcome
+## Expected Outcome
 
 By the end of the project, we will have:
 
