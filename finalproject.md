@@ -1,0 +1,1 @@
+A cloud-native web app deployed on AWS EKS using Kubernetes and Helm. The app is containerized with Docker, stored in Amazon ECR, and delivered through a CI/CD pipeline (GitHub Actions). Helm manages deployments, and the app is exposed via Ingress
